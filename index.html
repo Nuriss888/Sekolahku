@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK PASTIBISA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background-image: url('sklh.JPEG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .feature-card {
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+        .testimonial {
+            background: #f8f9fa;
+            border-left: 5px solid #007bff;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        .event-card {
+            transition: box-shadow 0.3s;
+        }
+        .event-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">SMK PASTIBISA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="ppdbButton" class="btn bg-warning me-2" type="button">PPDB</button>
+                    </li>
+                    
+                    <script>
+                        document.getElementById("ppdbButton").addEventListener("click", function() {
+                            window.location.href = "ppdb.html"; 
+                        });
+                    </script>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section p-5 rounded-lg m-3 text-center">
+        <h1 class="display-4">Selamat Datang di SMK PASTIBISA</h1>
+        <p class="lead">Pendidikan adalah pintu menuju masa depan yang cerah</p>
+        <hr class="my-4">
+        <p>Menyediakan program-progam pendidikan yang berkualitas</p>
+        <a class="btn btn-primary btn-lg" href="#about" role="button">Pelajari lebih lanjut</a>
+    </div>
+
+    <!-- About Section -->
+    <div id="about"  class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="">Tentang Kami</h2>
+                <p>Sekolah Menengah Kejuruan (SMK) Negeri PastiBisa, adalah lembaga pendidikan yang berada pada level SLTA dengan penekanan pendidikan dan pelatihan pada pemberian bekal kejuruan, untuk mempersiapkan tamatan dapat memasuki lapangan kerja. SMK Negeri Pasti Bisa adalah sekolah menengah kejuruan yang termasuk dalam bidang/kelompok Bisnis Managemen dan Teknologi Informasi. SMK jenis ini pada awalnya adalah sekolah yang dikembangkan dari bentuk Sekolah Menengah Menengah Ekonomi Atas (SMEA).
+                    Sesuai  dengan bidangnya, SMK Negeri PastiBisa memiliki 5 Program Keahlian/Jurusan yaitu Kimia, Pemasaran, Administrasi Perkantoran, Akutansi dan Teknik Komputer dan Jaringan. Sejak tahun 2004, untuk program keahlian akuntansi telah dicalonkan untuk menjadi sekolah berstandar nasional. Gedung SMK Negeri ini dibangun 2 lantai dengan luas bangunan 2.741 m2 yang berdiri diatas lahan seluas 5.500 m2.</p>
+            </div>
+            <div class="col-md-6">
+                <video controls class="img-fluid rounded">
+                    <source src="vid.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Keunggulan Kami</h2>
+        <div class="row text-center">
+
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="c:\Users\LENOVO\Pictures\UAS P.TRIO\labolatorium.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Laboratorium Canggih</h5>
+                        <p class="card-text">Dilengkapi dengan peralatan yang modern dan teknologi canggih, memberikan pengalaman belajar interaktif dan mendalam untuk mendukung praktik siswa secara optimal.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="c:\Users\LENOVO\Pictures\UAS P.TRIO\Lab.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Lab Komputer</h5>
+                        <p class="card-text">Dilengkapi dengan peralatan Teknologi yang maju dan nyaman untuk proses pembelajaran para siswa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="c:\Users\LENOVO\Pictures\UAS P.TRIO\perpus.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Perpustakaan</h5>
+                        <p class="card-text">Perpustakaan yang lengkap dengan buku-buku teks, referensi, majalah, dan akses ke internet dalam penelitian dan pemahaman yang lebih mendalam tentang bidang kejuruan mereka.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="row text-center mt-4">
+        <div class="col">
+            <a href="keunggulankami.html" class="btn btn-primary">Lihat Lebih Banyak</a>
+        </div>
+    </div>
+
+ <div class="container my-5">
+    <h2 class="text-center mb-4">TESTIMONIAL ALUMNI</h2>
+    <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <blockquote class="testimonial">
+                    <p class="mb-0">"Memberikan saya pengalaman yang sangat berguna yaitu tentang Teknologi."</p><br>
+                    <footer class="blockquote-footer">Alumni 1, <cite title="Source Title">TEKNIK KOMPUTER JARINGAN</cite></footer>
+                </blockquote>
+            </div>
+
+            <div class="carousel-item">
+                <blockquote class="testimonial">
+                    <p class="mb-0">"SMK PASTIBISA memberikan perlengkapan Praktikum yang sangat lengkap."</p><br>
+                    <footer class="blockquote-footer">Alumni 2, <cite title="Source Title">KIMIA</cite></footer>
+                </blockquote>
+            </div>
+
+            <div class="carousel-item">
+                <blockquote class="testimonial">
+                    <p class="mb-0">"Disini saya belajar banyak tentang cara mengelola keuangan."</p><br>
+                    <footer class="blockquote-footer">Alumni 3, <cite title="Source Title">AKUTANSI</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">RAGAM KEGIATAN</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card event-card">
+                    <img src="c:\Users\LENOVO\Pictures\UAS P.TRIO\rakitkmptr.jpg" class="card-img-top" alt="Event 1">
+                    <div class="card-body">
+                        <h5 class="card-title">MERAKIT KOMPUTER</h5>
+                        <p class="card-text">Belajar merakit dan memprogram komputer untuk perlombaan antar SMK.</p>
+                        <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card event-card">
+                    <img src="c:\Users\LENOVO\Pictures\UAS P.TRIO\Foto-seminar.jpg" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Seminar Kebangsaan</h5>
+                        <p class="card-text">Wawasan kebangsaan mampu menyadarkan semua Siswa-Siswi, akan pentingnya arti hidup bersama berdasarkan dasar persamaan status dan hak.</p>
+                        <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card event-card">
+                    <img src="c:\Users\LENOVO\Pictures\UAS P.TRIO\dn.jpg" class="card-img-top" alt="Event 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Diesnatalis SMK PASTIBISA</h5>
+                        <p class="card-text">Acara puncak Diesnatalis.</p>
+                        <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Hubungi Kami</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Tulis pesan Anda di sini"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

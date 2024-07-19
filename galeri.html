@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri SMK PASTIBISA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .navbar-brand {
+        font-weight: bold;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">SMK PASTIBISA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="ppdbButton" class="btn bg-warning me-2" type="button">PPDB</button>
+                    </li>
+                    <script>
+                        document.getElementById("ppdbButton").addEventListener("click", function() {
+                            window.location.href = "ppdb.html"; 
+                        });
+                    </script>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Galeri Kegiatan SMK PASTIBISA</h2>
+        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="futsal.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kegiatan Perlombaan SepakBola tingkat Provinsi</h5>
+                        <p>Perlombaan ini diikuti oleh seluru siswa siswi SMK/SMA sederajat di seluruh Provinsi.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="penelitian.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kegiatan Penelitian</h5>
+                        <p>Kegiatan penelitian kimia di SMKN PASTIBISA.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="volly.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>TOURNAMEN BOLA VOLLY</h5>
+                        <p>Kegiatan perlombaan bola volly antar SMK sekabupaten.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Pelantikan-Pengurus-OSIS-1.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PELANTIKAN OSIS SMKN PASTIBISA</h5>
+                        <p>Kegiatan pemilihan ketua dan wakil ketua OSIS SMKN PASTIBISA.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

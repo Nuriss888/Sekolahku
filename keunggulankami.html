@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Keunggulan Kami - SMK PASTIBISA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        body {
+        font-family: Arial, sans-serif;
+        }
+        .navbar-brand {
+        font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">SMK PASTIBISA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="ppdbButton" class="btn bg-warning me-2" type="button">PPDB</button>
+                    </li>
+                    <script>
+                        document.getElementById("ppdbButton").addEventListener("click", function() {
+                            window.location.href = "ppdb.html"; 
+                        });
+                    </script>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Program unggulan SMK PASTIBISA</h2>
+
+        <div class="row">
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="SSO.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Science & Social Olympiad</h5>
+                        <p class="card-text">ajang olimpiade di bidang sains dan sosial tingkat nasional pada jenjang SMP sederajat yang diselenggarakan rutin setiap tahun oleh SMK PASTIBISA sejak 1999 sebagai wujud dedikasi terhadap dunia pendidikan dalam negeri. Pada tahun ini, SSO XXIV 2023 mengambil tajuk Exploring The Glory Of Rome As An Inspiration To Build A Civilized Life Order.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="Tahfidz.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">TAHFIDZ AL-QURAN</h5>
+                        <p class="card-text">Program Tahfidz merupakan salah satu program unggulan SMK PASTIBISA, program ini menjadi wadah bagi siswa untuk menghafalkan Al Qur`an. .</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="rbtc.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">ROBOTIC</h5>
+                        <p class="card-text">Program ini berfokus pada keterampilan, skill, pengetahuan untuk Meningkatkan Produktivitas dan juga Mendorong Inovasi dalam menciptakan sebuah teknologi robot.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
